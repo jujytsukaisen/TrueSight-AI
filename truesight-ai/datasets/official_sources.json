@@ -1,0 +1,77 @@
+[
+  {
+    "topic": "health",
+    "language": "both",
+    "country": "international",
+    "name": "World Health Organization (WHO)",
+    "url": "https://www.who.int",
+    "type": "international_org"
+  },
+  {
+    "topic": "education",
+    "language": "both",
+    "country": "international",
+    "name": "UNESCO",
+    "url": "https://www.unesco.org",
+    "type": "international_org"
+  },
+  {
+    "topic": "general",
+    "language": "ar",
+    "country": "international",
+    "name": "Misbar",
+    "url": "https://misbar.com",
+    "type": "fact_checking"
+  },
+  {
+    "topic": "general",
+    "language": "ar",
+    "country": "international",
+    "name": "Fatabyyano",
+    "url": "https://fatabyyano.net",
+    "type": "fact_checking"
+  },
+  {
+    "topic": "politics",
+    "language": "en",
+    "country": "international",
+    "name": "PolitiFact",
+    "url": "https://www.politifact.com",
+    "type": "fact_checking"
+  },
+  {
+    "topic": "general",
+    "language": "en",
+    "country": "international",
+    "name": "FactCheck.org",
+    "url": "https://www.factcheck.org",
+    "type": "fact_checking"
+  },
+  {
+    "topic": "health",
+    "language": "ar",
+    "country": "Iraq",
+    "name": "Iraqi Ministry of Health",
+    "url": "https://moh.gov.iq",
+    "type": "government",
+    "_verified_note": "Confirmed live via search — Arabic government portal, current as of build time."
+  },
+  {
+    "topic": "general",
+    "language": "both",
+    "country": "Iraq",
+    "name": "Iraqi News Agency (INA)",
+    "url": "https://ina.iq",
+    "type": "government",
+    "_verified_note": "Confirmed live via search — state news wire, has /en/ edition."
+  },
+  {
+    "topic": "education",
+    "language": "ar",
+    "country": "Iraq",
+    "name": "Iraqi Ministry of Education",
+    "url": "https://moedu.gov.iq",
+    "type": "government",
+    "_verified_note": "RE-VERIFY BEFORE DEMO: listed as the official site by Wikidata and multiple education-system references, but one automated check returned an error and direct fetch was blocked by robots.txt, so live status wasn't 100% confirmable from here. Open it yourself before relying on it in the recording."
+  }
+]

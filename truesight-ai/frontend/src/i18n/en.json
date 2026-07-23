@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "tagline": "Think. Verify. Understand. Then Share."
+  },
+  "nav": {
+    "home": "Home",
+    "analyze": "Analyze",
+    "news": "News",
+    "tips": "Educational Tips",
+    "about": "About"
+  },
+  "header": {
+    "cta": "Analyze Content",
+    "languageToggle": "العربية"
+  },
+  "home": {
+    "eyebrow": "A UNESCO Youth Hackathon 2026 project",
+    "heroBefore": "BREAKING: Global catastrophe will destroy the economy within HOURS! Banks are HIDING the truth from you!!",
+    "heroAfter": "The post claims a major economic event is imminent and that banks are withholding information, but provides no specific event, source, or evidence.",
+    "heroBeforeLabel": "As written",
+    "heroAfterLabel": "Neutral rewrite",
+    "cta": "Analyze something now",
+    "ctaSecondary": "See it in action",
+    "thesisEyebrow": "One engine, not two",
+    "thesisTitle": "Fake news and scam ads run on the same trick.",
+    "thesisBody": "Both use misleading content to manipulate a decision before anyone can verify it. TrueSight treats them as one problem — a single detection engine reads a news article, an advertisement, or a social post the same way, and returns the same kind of clear, calm result every time.",
+    "howItWorksEyebrow": "How it works",
+    "howItWorksTitle": "The tagline is the process.",
+    "step1Title": "Think",
+    "step1Body": "Paste text, a link, or a screenshot of anything you're about to trust or share.",
+    "step2Title": "Verify",
+    "step2Body": "TrueSight reads the content and checks it against known manipulation patterns.",
+    "step3Title": "Understand",
+    "step3Body": "Get a trust score, the specific techniques found, and a calm, neutral rewrite.",
+    "step4Title": "Share",
+    "step4Body": "Pass along the facts — or the warning — with real understanding behind it.",
+    "statsEyebrow": "What you get back",
+    "stat1Title": "Trust Score",
+    "stat1Body": "0–100, reflecting manipulation risk — never a verdict on truth or falsehood.",
+    "stat2Title": "Named techniques",
+    "stat2Body": "Sensationalism, pressure tactics, fraud indicators, and more, called out specifically.",
+    "stat3Title": "A neutral rewrite",
+    "stat3Body": "The same claim, stripped of emotional language, so you can judge it calmly.",
+    "bilingualNote": "Works the same way in Arabic and English — the language is detected automatically, never chosen by hand."
+  },
+  "analyze": {
+    "title": "Analyze something",
+    "subtitle": "Paste text, a link, or upload a screenshot. TrueSight detects the language and content type on its own.",
+    "typeText": "Text",
+    "typeUrl": "Link",
+    "typeImage": "Screenshot",
+    "placeholderText": "Paste the article, ad, or post text here…",
+    "placeholderUrl": "https://…",
+    "uploadPrompt": "Click to upload an image, or drag one in",
+    "uploadChange": "Choose a different image",
+    "submit": "Analyze",
+    "analyzing": "Reading the content closely…",
+    "errorEmpty": "Add some content first.",
+    "errorGeneric": "Something went wrong reaching the analysis engine.",
+    "errorConnection": "Can't reach the backend at localhost:8000. Is it running?",
+    "tryAnother": "Analyze something else"
+  },
+  "results": {
+    "trustScore": "Trust Score",
+    "bandHigh": "Low risk",
+    "bandMid": "Caution",
+    "bandLow": "High risk",
+    "reasoning": "Why this score",
+    "indicatorsTitle": "What was detected",
+    "indicatorsEmpty": "No manipulation techniques detected in this content.",
+    "severityLow": "Low",
+    "severityMedium": "Medium",
+    "severityHigh": "High",
+    "neutralTitle": "Neutral rewrite",
+    "sourcesTitle": "Check against",
+    "tipTitle": "Literacy tip",
+    "contentTypeNews": "News",
+    "contentTypeAdvertisement": "Advertisement",
+    "contentTypeSocialPost": "Social post",
+    "contentTypeOther": "Content"
+  },
+  "tips": {
+    "title": "Educational Tips",
+    "subtitle": "Habits that catch manipulation before a Trust Score ever has to.",
+    "items": [
+      {
+        "title": "Slow down on urgency",
+        "body": "\"Act now,\" countdown timers, and \"before it's too late\" framing exist to get you to decide before you can check. Treat urgency itself as a signal to slow down."
+      },
+      {
+        "title": "Follow the money or the vote",
+        "body": "Ask who benefits if you believe this and share it. An ad benefits its seller; a political post often benefits someone running for something. That doesn't make it false — but it's a reason to verify."
+      },
+      {
+        "title": "Read past the headline",
+        "body": "Headlines are written to be shared, not to be complete. The manipulation often lives in what the headline leaves out."
+      },
+      {
+        "title": "Real institutions rarely ask this way",
+        "body": "A bank, ministry, or delivery company won't ask for your password or full card number through a link in an urgent message. That request is the tell, regardless of how official it looks."
+      },
+      {
+        "title": "Check who else is reporting it",
+        "body": "A major real event is covered by more than one outlet. If a claim only exists on one page or one account, that's worth noticing."
+      },
+      {
+        "title": "Notice your own reaction",
+        "body": "Content designed to manipulate usually aims at a strong feeling first — fear, outrage, or excitement — and reasoning second. Noticing the feeling is the first step to checking the claim."
+      }
+    ]
+  },
+  "news": {
+    "title": "Recent analyses",
+    "subtitle": "A few examples run through TrueSight during development, in both languages.",
+    "viewFull": "View full analysis"
+  },
+  "about": {
+    "title": "About TrueSight AI",
+    "subtitle": "Built for the UNESCO Youth Hackathon 2026, Media and Information Literacy theme.",
+    "missionTitle": "The idea",
+    "missionBody": "Most tools split \"fake news\" and \"scam ads\" into separate problems. TrueSight starts from the observation that they're the same problem wearing different clothes: content designed to make you decide before you verify. One analysis engine, one Trust Score, one calm rewrite — for a headline, an ad, or a post.",
+    "teamTitle": "The team",
+    "teamBody": "A six-person student team covering AI, backend, frontend, the browser extension, and dataset research.",
+    "techTitle": "How it's built",
+    "techBody": "Python and FastAPI on the backend, a Claude-powered analysis engine, a React and Tailwind website, and a Chrome/Edge extension — all reading from the same shared contract, in Arabic and English."
+  },
+  "footer": {
+    "tagline": "Think. Verify. Understand. Then Share.",
+    "builtFor": "Built for the UNESCO Youth Hackathon 2026"
+  }
+}
